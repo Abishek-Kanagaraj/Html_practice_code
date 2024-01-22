@@ -1,0 +1,42 @@
+.nav {
+    display: flex;
+    justify-content: left;
+    background-color: blueviolet;
+    width: 100%;
+    color: black;
+    height: 100%;
+    margin-top: 20px;
+    overflow: hidden;
+    font-family: 'Lora', serif;
+    border-radius: 10px;
+}
+
+.nav ul {
+    display: inline-flex;
+}
+
+.nav ul li {
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style-type: none;
+}
+
+.ul,
+a {
+    color: black;
+    font-size: 15px;
+    font-weight: 350;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    background-color: white;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.home {
+    background-color: white;
+    border-radius: 10px;
+    font-size: 25px;
+}
