@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedding</title>
+</head>
+
+<body>
+    <!--Using embed we could add an external content at the specified point in the document-->
+    <embed src="mixkit-stunning-sunset-seen-from-the-sea-4119-medium.mp4" type="video/webm" width="300px" height="200px"
+        title="Sunset">
+    <!--object is used to attach files like pdf-->
+
+    <object data="MOM - Abishek K.pdf" form="details" type="application/pdf" widhth="700" height="500"></object>
+    <p></p>
+    <!--you can also have form attribute in object, which denotes the form that object belongs to-->
+    <form action="" target="_blank" method="get" id="details">
+        <div>
+            <label for="name">Enter your name:</label>
+            <input type="text" name="name" id="name" required />
+        </div>
+        <div>
+            <label for="email">Enter Mail id:</label>
+            <input type="email" name="email" , id="email" required />
+        </div>
+        <div>
+            <input type="submit" value="Submit" />
+        </div>
+    </form>
+
+</body>
+
+</html>
