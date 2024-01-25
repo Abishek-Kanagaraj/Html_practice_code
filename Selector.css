@@ -1,0 +1,23 @@
+/*element selector*/
+p{
+    color: brown;
+    font: bold;
+}
+/*ID Selector*/
+#heading{
+    color: white;
+    background-color: brown;
+}
+/*Class selector*/
+.list{
+    color: black;
+    background-color: blanchedalmond;
+}
+/*Attribute selector*/
+img[src]{
+    width: 100px;
+}
+/*Pseudo-class selector*/
+img:hover{
+    width:150px
+}

@@ -1,0 +1,21 @@
+html {
+    font-size: medium;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    width: 600px;
+    margin:auto ;
+    background-color:blanchedalmond;
+    border: 5px solid black;
+}
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 5px black;
+  }
+  img{
+    margin: auto;
+    display: block;
+  }

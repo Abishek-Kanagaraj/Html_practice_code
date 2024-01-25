@@ -1,0 +1,16 @@
+/*Descendant Combinator*/
+.list li{
+    background-color: azure;
+}
+/*Child combinator*/
+ul > li{
+    font-family:'Times New Roman', Times, serif;
+}
+/*Next-sibiling combinator*/
+p + h2{
+    font-family:cursive;
+}
+/*Subsequent-sibling combinator*/
+h3~label{
+    background-color:cadetblue;
+}

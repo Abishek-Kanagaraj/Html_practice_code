@@ -3,6 +3,10 @@
 
 <head>
     <title>Practice tag</title>
+    <link rel="stylesheet" href="Selector.css">
+    <link rel="Stylesheet" href="font and text.css">
+
+    <link rel="Stylesheet" href="Combinators.css">
     <style>
         input:invalid {
             border: 2px dashed red;
@@ -12,23 +16,25 @@
             border: 2px solid black;
         }
     </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--for Search button-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--for Search button-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
 </head>
 
 <body>
 
     <label for="search">Search:</label>
-    <input type="text" id="search" placeholder="Book or Author name"  name="search" required />
+    <input type="text" id="search" placeholder="Book or Author name" name="search" required />
     <button><i class="fa fa-search"></i></button>
     <h1>About Read-Easy</h1>
     <h2>Read Free Books Online and Download eBooks for Free</h2>
     <p>Find thousands of books to read online and download free eBooks. Discover and read free books by indie authors as
         well as tons of classic books. Browse categories to find your favorite literature genres: Romance, Fantasy,
         Thriller, Short Stories, Young Adult and Children’s Books… There are eBooks for everyone.</p>
-    <h2>Nice that you're here!<br>
+    <h2 id="heading">Nice that you're here!<br>
         Become part of our community.</h2>
     <h3>Your advantages:</h3>
-    <ul>
+    <ul class="list">
         <li>Join group</li>
         <li>Receive feedback already during the creation process of your book</li>
         <li>Network with other writers</li>
