@@ -1,0 +1,33 @@
+p::first-line{
+    color:brown;
+    font-size: medium;
+}
+p::first-letter{
+    font-size: xx-large;
+}
+h2::before{
+    content:url('https://images.freeimages.com/fic/images/icons/1807/candy_library/128/book_green.png?fmt=webp&h=350')
+}
+h2::after{
+    content: url('https://images.freeimages.com/fic/images/icons/766/base_software/256/book3.png?fmt=webp&h=350');
+}
+::marker{
+    color: blueviolet;
+    font-size: 20px;
+}
+::selection{
+    color: blueviolet;
+    background-color: azure;
+}
+.dropDown{
+    position: relative;
+    display: inline-block;
+}
+.dropDown-content {
+    display: none;
+    position: relative;
+    background-color: beige;
+}
+.dropDown:hover .dropDown-content{
+    display: block;
+}

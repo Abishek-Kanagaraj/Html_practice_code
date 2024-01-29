@@ -1,0 +1,22 @@
+
+/*background color*/
+h2 + p{
+    background-color: rgb(225, 219, 215);
+    opacity: 2;
+}
+/*background image and background repeat*/
+body{
+    background-image:url(assets/mixkit-person-sitting-on-the-couch-drinking-coffee-and-reading-a-15-original.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:scroll;
+}
+/*border style*/
+h2+p{
+    border-style: double solid;
+    border-width: 5px;
+    border-color: black;
+    border-top-style:groove ;
+    border-bottom-style:groove ;
+    border-radius: 10px;
+}

@@ -1,6 +1,6 @@
 /*Descendant Combinator*/
 .list li{
-    background-color: azure;
+    background-color: rgb(162, 226, 226);
 }
 /*Child combinator*/
 ul > li{

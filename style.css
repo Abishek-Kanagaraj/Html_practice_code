@@ -11,10 +11,6 @@
     border-radius: 10px;
 }
 
-.nav ul {
-    display: inline-flex;
-}
-
 .nav ul li {
     padding-left: 10px;
     padding-right: 10px;
@@ -39,4 +35,7 @@ a {
     background-color: white;
     border-radius: 10px;
     font-size: 25px;
+}
+.flex{
+    display:flex;
 }

@@ -1,0 +1,29 @@
+/* unvisited link */
+a:link {
+    color: blueviolet;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(215, 123, 138);
+}
+
+/* selected link */
+a:active {
+    color: rgb(39, 39, 208);
+}
+
+/*Simple Tooltip Hover*/
+div:hover p {
+    display: block;
+}
+
+/*First child*/
+div :first-child {
+    color: black;
+}

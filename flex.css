@@ -1,0 +1,28 @@
+div{
+    background-color: red;
+    flex-direction: column;
+}
+header{
+    display:flex;
+    justify-content: center;
+    background-color:aqua;
+    flex-wrap:wrap;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+.left{
+    display:flex;
+    justify-content: flex-start;
+    background-color:green;
+}
+p{
+    display: flex;
+    justify-content: center;
+}
+.right{
+    display: flex;
+    justify-content: right;
+}
