@@ -1,0 +1,20 @@
+.para1{
+    background-color: rgb(88, 243, 191);
+}
+.para2{
+    background-color: rgb(155, 97, 209);
+}
+.para3{
+    background-color: rgb(81, 207, 211);
+}
+.para4{
+    background-color: bisque;
+}
+  
+@media all and (min-width: 800px){
+    p{
+        width: 30%;
+        float:left;
+        padding: 10px;
+    }
+}
