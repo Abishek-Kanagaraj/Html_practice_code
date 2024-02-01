@@ -55,3 +55,26 @@ console.log(city.toString());//Converts the array into string
 
 // for-each method
 colors.forEach((item, index) => { console.log(`${index}:${item}`) });
+
+// join: joins all elements of the array to string
+const color_string = colors.join(',');
+console.log(color_string);
+
+// splice is used to remove and also replace simultaneously
+console.log(doubled);
+doubled.splice(1, 2, 3, 4, 5, 6);
+console.log(doubled);
+
+// reverse: reverse the array
+console.log(doubled.reverse());
+
+// shift: removes first element, unshift: add one are more elements to front of the array
+doubled.shift();
+console.log(doubled);
+doubled.unshift('4', '8');
+console.log(doubled);
+
+// flat: concatenates the sub-array elements into the array itself
+const two_dimensional = [1, 2, 3, [4, 5, 6]];
+const one_dimensional = two_dimensional.flat();
+console.log(one_dimensional);
