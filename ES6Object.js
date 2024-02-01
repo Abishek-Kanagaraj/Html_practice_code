@@ -10,3 +10,4 @@ console.log(person.name);
 
 let {name, YOB, isEmployee} = person;
 console.log(name, YOB, isEmployee);
+
