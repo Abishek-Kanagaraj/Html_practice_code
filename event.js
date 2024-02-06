@@ -17,11 +17,11 @@ btn.addEventListener("click", changeBackground);
 // removes the eventhandle
 btn.removeEventListener("click",changeBackground);
 
-const buttons = document.querySelectorAll("button");
+/*const buttons = document.querySelectorAll("button");
 
 for (const button of buttons) {
   button.addEventListener("click", changeBackground);
-}
+}*/
 
 // keydown property
 const textBox = document.querySelector("#textBox");
@@ -43,4 +43,11 @@ form.addEventListener("submit", (e) => {
     para.style.color=`rgb(255,0,0)`;
   }
 });
+const bton=document.querySelector('.greet');
+const controller=new AbortController();
+
+bton.addEventListener('click',(event)=>{
+  console.log("greet",event)
+}, {signal:controller.signal})
+
 

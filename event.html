@@ -2,35 +2,47 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event</title>
-    <script src="event.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event</title>
+  <script src="event.js" defer></script>
+  <script src="getElements.js" defer></script>
 </head>
 
 <body>
-    <!-- inline event handlers -->
-    <button onclick="alert('Entered inline event handler!!!')">Inline</button>
-    <button>Click here to change color</button>
-    <button>change background color</button>
+  <!-- inline event handlers -->
+  <button onclick="alert('Entered inline event handler!!!')">Inline</button>
+  <button>Click here to change color</button>
+  <button>change background color</button>
+  <div>
+    <input id="textBox" type="text" />
+    <div id="output"></div>
+  </div>
+  <form>
     <div>
-        <input id="textBox" type="text" />
-        <div id="output"></div>
+      <label for="fname">First name: </label>
+      <input id="fname" type="text" />
     </div>
-    <form>
-        <div>
-          <label for="fname">First name: </label>
-          <input id="fname" type="text" />
-        </div>
-        <div>
-          <label for="lname">Last name: </label>
-          <input id="lname" type="text" />
-        </div>
-        <div>
-          <input id="submit" type="submit" />
-        </div>
-      </form>
-      <p></p>
+    <div>
+      <label for="lname">Last name: </label>
+      <input id="lname" type="text" />
+    </div>
+    <div>
+      <input id="submit" type="submit" />
+    </div>
+  </form>
+  <p></p>
+  <p id="para">Some text here</p>
+  <button onclick="changeColor('blue');">blue</button>
+  <button onclick="changeColor('red');">red</button>
+  <div id="parent-id">
+    <p>hello world 1</p>
+    <p class="test">hello world 2</p>
+    <p>hello world 3</p>
+    <p>hello world 4</p>
+  </div>
+  <input type="hidden" name="up" />
+  <input type="hidden" name="down" />
 </body>
 
 </html>
