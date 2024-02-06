@@ -23,4 +23,24 @@ for (const button of buttons) {
   button.addEventListener("click", changeBackground);
 }
 
+// keydown property
+const textBox = document.querySelector("#textBox");
+const output = document.querySelector("#output");
+textBox.addEventListener("keydown", (event) => {
+  output.textContent = `You pressed "${event.key}".`;
+});
+
+// Prevent default 
+const form = document.querySelector("form");
+const fname = document.getElementById("fname");
+const lname = document.getElementById("lname");
+const para = document.querySelector("p");
+
+form.addEventListener("submit", (e) => {
+  if (fname.value === "" || lname.value === "") {
+    e.preventDefault();
+    para.textContent = "*Some fields are empty";
+    para.style.color=`rgb(255,0,0)`;
+  }
+});
 
