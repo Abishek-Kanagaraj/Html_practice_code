@@ -59,6 +59,10 @@ Object.seal(object);
 object.b = 55;
 delete object.b;
 console.log(object.b);
-
+let obj3={username:"Abishek",
+id:"11645"}
+let keys =Object.keys(obj3);
+console.log(keys);
+Object.keys(obj3).map((key)=>console.log(obj3[key]));
 
 
